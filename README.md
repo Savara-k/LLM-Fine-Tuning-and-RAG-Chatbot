@@ -36,16 +36,27 @@ This helps reduce hallucinations and ensures responses are grounded in real data
 
 ## Project Pipeline
 The system follows this pipeline:
+
 User Query
+
     ↓
+    
 Prompt Engineering
+
     ↓
+    
 Fine-Tuned LLM (FLAN-T5 + LoRA)
+
     ↓
+    
 Retrieval System (Sentence Transformers + ChromaDB)
+
     ↓
+    
 Context Injection
+
     ↓
+    
 Generated Response
 
 ---
